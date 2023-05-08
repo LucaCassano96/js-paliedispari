@@ -39,7 +39,7 @@ function sommaElementi(elemento1, elemento2){
     return somma;
 }
 
-/* Dichiariamo  chi ha vinto. */
+/* Dichiariamo chi ha vinto. */
 
 let pariDispari = sommaElementi (numeroUtente, numeroRandom);
 console.log(`risultato somma = ${pariDispari}`); 
@@ -51,4 +51,5 @@ if (pariDispari === scegliPariDispari) {
 else {
     let risultato = "Hai perso!";
     console.log(risultato);
+
 }
